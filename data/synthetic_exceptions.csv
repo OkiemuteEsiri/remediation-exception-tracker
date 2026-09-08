@@ -1,0 +1,7 @@
+exception_id,cve,severity,asset_criticality,internet_exposed,known_exploited,owner,justification,compensating_control,control_strength,approval_reference,requested_on,review_date,expiry_date,remediated,validation_evidence
+EX-001,CVE-2099-0001,HIGH,HIGH,false,false,platform-team,Synthetic legacy dependency,Network isolation and EDR monitoring,STRONG,APR-001,2026-07-01,2026-08-01,2026-11-01,false,
+EX-002,CVE-2099-0002,CRITICAL,CRITICAL,true,true,edge-team,Synthetic vendor patch delay,WAF restriction and service segmentation,MODERATE,APR-002,2026-08-15,2026-09-15,2026-10-01,false,
+EX-003,CVE-2099-0003,MEDIUM,MEDIUM,false,false,workplace-team,Synthetic application compatibility issue,Application allow-listing,STRONG,APR-003,2026-06-01,2026-07-01,2026-09-01,false,
+EX-004,CVE-2099-0004,HIGH,HIGH,false,false,,Synthetic missing ownership example,Monitoring only,WEAK,APR-004,2026-08-01,2026-09-01,2026-12-01,false,
+EX-005,CVE-2099-0005,HIGH,CRITICAL,false,false,database-team,Synthetic upgrade completed,Segmentation,STRONG,APR-005,2026-07-01,2026-08-01,2026-12-01,true,Synthetic rescan confirms condition absent
+EX-006,CVE-2099-0006,LOW,LOW,false,false,lab-team,Synthetic maintenance constraint,Host firewall restriction,MODERATE,APR-006,2026-09-01,2026-09-15,2026-12-15,false,
